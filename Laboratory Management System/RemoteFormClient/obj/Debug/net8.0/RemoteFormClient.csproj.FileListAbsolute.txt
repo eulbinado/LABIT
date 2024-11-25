@@ -1,0 +1,14 @@
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\bin\Debug\net8.0\RemoteFormClient.exe
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\bin\Debug\net8.0\RemoteFormClient.deps.json
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\bin\Debug\net8.0\RemoteFormClient.runtimeconfig.json
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\bin\Debug\net8.0\RemoteFormClient.dll
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\bin\Debug\net8.0\RemoteFormClient.pdb
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.AssemblyInfoInputs.cache
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.AssemblyInfo.cs
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.csproj.CoreCompileInputs.cache
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.dll
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\refint\RemoteFormClient.dll
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.pdb
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\RemoteFormClient.genruntimeconfig.cache
+C:\CAPSTONE\Laboratory Management System\RemoteFormClient\obj\Debug\net8.0\ref\RemoteFormClient.dll

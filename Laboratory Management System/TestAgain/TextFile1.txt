@@ -1,0 +1,147 @@
+﻿using Laboratory_Management_System.UserControls.AdminControls.LabAssets;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Laboratory_Management_System.UserControls.AdminControls
+{
+    public partial class uc_assets_inventory : UserControl
+    {
+        public uc_assets_inventory()
+        {
+            InitializeComponent();
+            InitializeControls();
+        }
+
+        private void InitializeControls()
+        {
+            if (panel2 == null || labPanel == null)
+            {
+                Console.WriteLine("One or both panels are not initialized.");
+                return;
+            }
+
+            AddButtonsToPanel2();
+            SetDefaultControl(); // Set default control on initialization
+        }
+
+        private void AddButtonsToPanel2()
+        {
+            if (panel2 == null)
+            {
+                Console.WriteLine("panel2 is not initialized.");
+                return;
+            }
+
+            panel2.Controls.Clear();
+
+            TableLayoutPanel tableLayoutPanel = new TableLayoutPanel
+            {
+                RowCount = 1,
+                ColumnCount = 6,
+                Dock = DockStyle.Fill,
+                Padding = new Padding(0),
+                Margin = new Padding(0),
+                CellBorderStyle = TableLayoutPanelCellBorderStyle.None
+            };
+
+            for (int i = 0; i < tableLayoutPanel.ColumnCount; i++)
+            {
+                tableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100f / tableLayoutPanel.ColumnCount));
+            }
+
+            tableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+
+            Color[] colors = { Color.LightCoral, Color.LightBlue, Color.LightGreen, Color.LightSalmon, Color.Thistle, Color.LightGoldenrodYellow };
+            string[] buttonTexts = { "Laboratory 1", "Laboratory 2", "Laboratory 3", "Laboratory 4", "Laboratory 5", "Laboratory 6" };
+
+            for (int i = 0; i < 6; i++)
+            {
+                Button smallButton = new Button
+                {
+                    BackColor = colors[i],
+                    Margin = new Padding(5),
+                    Dock = DockStyle.Fill,
+                    FlatStyle = FlatStyle.Flat,
+                    Font = new Font("Segoe UI", 12, FontStyle.Bold),
+                    Text = buttonTexts[i],
+                    TextAlign = ContentAlignment.MiddleCenter,
+                    Tag = i, // Store index in the Tag property
+                    ForeColor = Color.White,
+                    Padding = new Padding(10), // Add some padding to make it look like a panel
+                    Height = 100 // Set a fixed height to make it look like a panel
+                };
+
+                smallButton.FlatAppearance.BorderSize = 0; // Remove border
+                smallButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(200, colors[i]); // Optional: Change color on hover
+                smallButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(150, colors[i]); // Optional: Change color on click
+
+                // Adding a shadow effect
+                smallButton.Paint += (sender, e) =>
+                {
+                    Button button = sender as Button;
+                    ControlPaint.DrawBorder(e.Graphics, button.ClientRectangle,
+                        Color.FromArgb(120, 0, 0, 0), 1, ButtonBorderStyle.Solid,
+                        Color.FromArgb(120, 0, 0, 0), 1, ButtonBorderStyle.Solid,
+                        Color.FromArgb(120, 0, 0, 0), 1, ButtonBorderStyle.Solid,
+                        Color.FromArgb(120, 0, 0, 0), 1, ButtonBorderStyle.Solid);
+                };
+
+                smallButton.Click += SmallButton_Click;
+
+                tableLayoutPanel.Controls.Add(smallButton, i, 0);
+            }
+
+            panel2.Controls.Add(tableLayoutPanel);
+
+            Console.WriteLine("Buttons added to panel2");
+        }
+
+        private void SmallButton_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = sender as Button;
+            int buttonIndex = (int)clickedButton.Tag;
+
+            Console.WriteLine($"Button {buttonIndex + 1} clicked");
+
+            if (labPanel == null)
+            {
+                Console.WriteLine("labPanel is not initialized.");
+                return;
+            }
+
+            labPanel.Controls.Clear();
+
+            UserControl newControl;
+
+            switch (buttonIndex)
+            {
+                case 0:
+                    newControl = new uc_lab1_assets();
+                    break;
+                case 1:
+                    newControl = new uc_lab2_assets();
+                    break;
+                default:
+                    newControl = new UserControl(); // Default or placeholder control
+                    break;
+            }
+
+            newControl.Dock = DockStyle.Fill;
+            labPanel.Controls.Add(newControl);
+        }
+
+        private void SetDefaultControl()
+        {
+            if (labPanel == null)
+            {
+                Console.WriteLine("labPanel is not initialized.");
+                return;
+            }
+
+            UserControl defaultControl = new uc_lab1_assets();
+            defaultControl.Dock = DockStyle.Fill;
+            labPanel.Controls.Add(defaultControl);
+        }
+    }
+}

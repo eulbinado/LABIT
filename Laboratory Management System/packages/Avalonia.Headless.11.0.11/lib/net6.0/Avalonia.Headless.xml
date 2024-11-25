@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Avalonia.Headless</name>
+    </assembly>
+    <members>
+        <member name="M:Avalonia.Headless.AvaloniaHeadlessPlatform.ForceRenderTimerTick(System.Int32)">
+            <summary>
+            Forces renderer to process a rendering timer tick.
+            Use this method before calling <see cref="M:Avalonia.Headless.HeadlessWindowExtensions.GetLastRenderedFrame(Avalonia.Controls.TopLevel)"/>. 
+            </summary>
+            <param name="count">Count of frames to be ticked on the timer.</param>
+        </member>
+        <member name="T:Avalonia.Headless.AvaloniaTestApplicationAttribute">
+            <summary>
+            Sets up global avalonia test framework using avalonia application builder passed as a parameter.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.AvaloniaTestApplicationAttribute.#ctor(System.Type)">
+            <summary>
+            Creates instance of <see cref="T:Avalonia.Headless.AvaloniaTestApplicationAttribute"/>. 
+            </summary>
+            <param name="appBuilderEntryPointType">
+            Parameter from which <see cref="T:Avalonia.AppBuilder"/> should be created.
+            It either needs to have BuildAvaloniaApp -> AppBuilder method or inherit Application.
+            </param>
+        </member>
+        <member name="T:Avalonia.Headless.HeadlessUnitTestSession">
+            <summary>
+            Headless unit test session that needs to be used by the actual testing framework.
+            All UI tests are supposed to be executed from one of the <see cref="M:Avalonia.Headless.HeadlessUnitTestSession.Dispatch(System.Action,System.Threading.CancellationToken)"/> methods to keep execution flow on the UI thread.
+            Disposing unit test session stops internal dispatcher loop. 
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessUnitTestSession.Dispatch(System.Action,System.Threading.CancellationToken)">
+            <inheritdoc cref="M:Avalonia.Headless.HeadlessUnitTestSession.Dispatch``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)"/>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessUnitTestSession.Dispatch``1(System.Func{``0},System.Threading.CancellationToken)">
+            <inheritdoc cref="M:Avalonia.Headless.HeadlessUnitTestSession.Dispatch``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)"/>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessUnitTestSession.Dispatch``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)">
+            <summary>
+            Dispatch method queues an async operation on the dispatcher thread, creates a new application instance,
+            setting app avalonia services, and runs <paramref name="action"/> parameter.
+            </summary>
+            <param name="action">Action to execute on the dispatcher thread with avalonia services.</param>
+            <param name="cancellationToken">Cancellation token to cancel execution.</param>
+            <exception cref="T:System.ObjectDisposedException">
+            If global session was already cancelled and thread killed, it's not possible to dispatch any actions again
+            </exception>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessUnitTestSession.StartNew(System.Type)">
+            <summary>
+            Creates instance of <see cref="T:Avalonia.Headless.HeadlessUnitTestSession"/>. 
+            </summary>
+            <param name="entryPointType">
+            Parameter from which <see cref="T:Avalonia.AppBuilder"/> should be created.
+            It either needs to have BuildAvaloniaApp -> AppBuilder method or inherit Application.
+            </param>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessUnitTestSession.GetOrStartForAssembly(System.Reflection.Assembly)">
+            <summary>
+            Creates a session from AvaloniaTestApplicationAttribute attribute or reuses any existing.
+            If AvaloniaTestApplicationAttribute doesn't exist, empty application is used. 
+            </summary>
+        </member>
+        <member name="T:Avalonia.Headless.HeadlessWindowExtensions">
+            <summary>
+            Set of extension methods to simplify usage of Avalonia.Headless platform.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.CaptureRenderedFrame(Avalonia.Controls.TopLevel)">
+            <summary>
+            Triggers a renderer timer tick and captures last rendered frame.
+            </summary>
+            <returns>Bitmap with last rendered frame. Null, if nothing was rendered.</returns>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.GetLastRenderedFrame(Avalonia.Controls.TopLevel)">
+            <summary>
+            Reads last rendered frame.
+            Note, in order to trigger rendering timer, call <see cref="M:Avalonia.Headless.AvaloniaHeadlessPlatform.ForceRenderTimerTick(System.Int32)"/> method.  
+            </summary>
+            <returns>Bitmap with last rendered frame. Null, if nothing was rendered.</returns>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyPress(Avalonia.Controls.TopLevel,Avalonia.Input.Key,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates keyboard press on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyPress(Avalonia.Controls.TopLevel,Avalonia.Input.Key,Avalonia.Input.RawInputModifiers,Avalonia.Input.PhysicalKey,System.String)">
+            <summary>
+            Simulates keyboard press on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyPressQwerty(Avalonia.Controls.TopLevel,Avalonia.Input.PhysicalKey,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates keyboard press on the headless window/toplevel, as if typed on a QWERTY keyboard.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyRelease(Avalonia.Controls.TopLevel,Avalonia.Input.Key,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates keyboard release on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyRelease(Avalonia.Controls.TopLevel,Avalonia.Input.Key,Avalonia.Input.RawInputModifiers,Avalonia.Input.PhysicalKey,System.String)">
+            <summary>
+            Simulates keyboard release on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyReleaseQwerty(Avalonia.Controls.TopLevel,Avalonia.Input.PhysicalKey,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates keyboard release on the headless window/toplevel, as if typed on a QWERTY keyboard.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.KeyTextInput(Avalonia.Controls.TopLevel,System.String)">
+            <summary>
+            Simulates a text input event on the headless window/toplevel
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.MouseDown(Avalonia.Controls.TopLevel,Avalonia.Point,Avalonia.Input.MouseButton,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates mouse down on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.MouseMove(Avalonia.Controls.TopLevel,Avalonia.Point,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates mouse move on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.MouseUp(Avalonia.Controls.TopLevel,Avalonia.Point,Avalonia.Input.MouseButton,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates mouse up on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.MouseWheel(Avalonia.Controls.TopLevel,Avalonia.Point,Avalonia.Vector,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates mouse wheel on the headless window/toplevel.
+            </summary>
+        </member>
+        <member name="M:Avalonia.Headless.HeadlessWindowExtensions.DragDrop(Avalonia.Controls.TopLevel,Avalonia.Point,Avalonia.Input.Raw.RawDragEventType,Avalonia.Input.IDataObject,Avalonia.Input.DragDropEffects,Avalonia.Input.RawInputModifiers)">
+            <summary>
+            Simulates drag'n'drop target on the headless window/toplevel.
+            </summary>
+        </member>
+    </members>
+</doc>

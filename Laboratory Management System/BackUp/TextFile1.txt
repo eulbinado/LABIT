@@ -1,0 +1,195 @@
+﻿using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CLMS_Student_Attendance
+{
+    internal static class Program
+    {
+        private static TcpListener listener;
+        private const int Port = 12345;
+        private static CancellationTokenSource cancellationTokenSource;
+
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            StartServer();
+
+            Application.Run(new StudentSession("24-UR-0003"));
+
+            StopServer();
+        }
+
+        private static void StartServer()
+        {
+            listener = new TcpListener(IPAddress.Any, Port);
+            listener.Start();
+            cancellationTokenSource = new CancellationTokenSource();
+
+            var serverThread = new Thread(() =>
+            {
+                while (!cancellationTokenSource.Token.IsCancellationRequested)
+                {
+                    try
+                    {
+                        var client = listener.AcceptTcpClient();
+                        var clientThread = new Thread(() => HandleClient(client));
+                        clientThread.Start();
+                    }
+                    catch (SocketException)
+                    {
+                      
+                    }
+                }
+            });
+            serverThread.Start();
+        }
+
+        private static void StopServer()
+        {
+            cancellationTokenSource.Cancel();
+            listener?.Stop();
+        }
+
+        private static void HandleClient(TcpClient client)
+        {
+            try
+            {
+                using (var stream = client.GetStream())
+                {
+                    var messageThread = new Thread(() => HandleIncomingMessages(stream));
+                    messageThread.Start();
+
+                    while (true)
+                    {
+                        try
+                        {
+                            SendScreenCapture(stream);
+                        }
+                        catch (IOException)
+                        {
+                            break;
+                        }
+                        catch (ObjectDisposedException)
+                        {
+                            break;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Error: " + ex.Message);
+                            break;
+                        }
+                    }
+                }
+            }
+            finally
+            {
+                client.Close();
+            }
+        }
+
+        private static void HandleIncomingMessages(NetworkStream stream)
+        {
+            while (true)
+            {
+                try
+                {
+                    string message = HandleMessage(stream);
+                    if (message == null) break; 
+                }
+                catch (IOException)
+                {
+                    break;
+                }
+                catch (ObjectDisposedException)
+                {
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                    break;
+                }
+            }
+        }
+
+        private static string HandleMessage(NetworkStream stream)
+        {
+            // Read message length
+            byte[] lengthBytes = new byte[4];
+            int bytesRead = stream.Read(lengthBytes, 0, lengthBytes.Length);
+            if (bytesRead == 0) return null; 
+
+            int messageLength = BitConverter.ToInt32(lengthBytes, 0);
+            byte[] messageBytes = new byte[messageLength];
+
+            stream.Read(messageBytes, 0, messageLength);
+            string message = System.Text.Encoding.UTF8.GetString(messageBytes);
+
+            ShowMessage(message);
+
+            return message;
+        }
+
+        private static void ShowMessage(string message)
+        {
+            if (Application.OpenForms.Count > 0)
+            {
+                Form mainForm = Application.OpenForms[0];
+                mainForm.Invoke((MethodInvoker)delegate
+                {
+                    MessageBox.Show(mainForm, message, "Message from Client", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                });
+            }
+        }
+
+        private static void SendScreenCapture(NetworkStream stream)
+        {
+            using (var bitmap = CaptureScreen())
+            using (var ms = new MemoryStream())
+            {
+                bitmap.Save(ms, ImageFormat.Jpeg);
+                var imageBytes = ms.ToArray();
+
+                var lengthBytes = BitConverter.GetBytes(imageBytes.Length);
+                stream.Write(lengthBytes, 0, lengthBytes.Length);
+                stream.Write(imageBytes, 0, imageBytes.Length);
+            }
+        }
+
+        private static Bitmap CaptureScreen()
+        {
+            var bounds = Screen.PrimaryScreen.Bounds;
+            var bitmap = new Bitmap(bounds.Width, bounds.Height);
+
+            using (var g = Graphics.FromImage(bitmap))
+            {
+                g.CopyFromScreen(bounds.X, bounds.Y, 0, 0, bounds.Size);
+
+                var cursorPosition = Cursor.Position;
+                var cursorIcon = Cursors.Default;
+                var cursorBounds = cursorIcon.HotSpot;
+
+                var cursorScreenPosition = new Point(cursorPosition.X - cursorBounds.X, cursorPosition.Y - cursorBounds.Y);
+
+                cursorIcon.Draw(g, new Rectangle(cursorScreenPosition, cursorIcon.Size));
+            }
+
+            return bitmap;
+        }
+
+
+    }
+}

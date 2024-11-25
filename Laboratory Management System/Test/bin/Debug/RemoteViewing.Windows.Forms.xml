@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RemoteViewing.Windows.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:RemoteViewing.Windows.Forms.VncBitmap">
+            <summary>
+            Helps with Windows Forms bitmap conversion.
+            </summary>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncBitmap.CopyToFramebuffer(System.Drawing.Bitmap,RemoteViewing.Vnc.VncRectangle,RemoteViewing.Vnc.VncFramebuffer,System.Int32,System.Int32)">
+            <summary>
+            Copies a region of a bitmap into the framebuffer.
+            </summary>
+            <param name="source">The bitmap to read.</param>
+            <param name="sourceRectangle">The bitmap region to copy.</param>
+            <param name="target">The framebuffer to copy into.</param>
+            <param name="targetX">The leftmost X coordinate of the framebuffer to draw to.</param>
+            <param name="targetY">The topmost Y coordinate of the framebuffer to draw to.</param>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncBitmap.CopyFromFramebuffer(RemoteViewing.Vnc.VncFramebuffer,RemoteViewing.Vnc.VncRectangle,System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            Copies a region of the framebuffer into a bitmap.
+            </summary>
+            <param name="source">The framebuffer to read.</param>
+            <param name="sourceRectangle">The framebuffer region to copy.</param>
+            <param name="target">The bitmap to copy into.</param>
+            <param name="targetX">The leftmost X coordinate of the bitmap to draw to.</param>
+            <param name="targetY">The topmost Y coordinate of the bitmap to draw to.</param>
+        </member>
+        <member name="T:RemoteViewing.Windows.Forms.VncControl">
+            <summary>
+            Displays the framebuffer sent from a VNC server, and allows input to be sent back.
+            </summary>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:RemoteViewing.Windows.Forms.VncControl"/> class.
+            </summary>
+        </member>
+        <member name="E:RemoteViewing.Windows.Forms.VncControl.Connected">
+            <summary>
+            Occurs when the VNC client has successfully connected to the remote server.
+            </summary>
+        </member>
+        <member name="E:RemoteViewing.Windows.Forms.VncControl.ConnectionFailed">
+            <summary>
+            Occurs when the VNC client has failed to connect to the remote server.
+            </summary>
+        </member>
+        <member name="E:RemoteViewing.Windows.Forms.VncControl.Closed">
+            <summary>
+            Occurs when the VNC client is disconnected.
+            </summary>
+        </member>
+        <member name="P:RemoteViewing.Windows.Forms.VncControl.HideLocalCursor">
+            <summary>
+            Gets or sets a value indicating whether the local cursor is shown, when showing the remote cursor is activated. This value is <see langword="false"/>.
+            </summary>
+        </member>
+        <member name="P:RemoteViewing.Windows.Forms.VncControl.Client">
+             <summary>
+             Gets or sets the <see cref="T:RemoteViewing.Vnc.VncClient"/> being interacted with.
+            
+             By default, this is a new instance.
+             Call <see cref="M:RemoteViewing.Vnc.VncClient.Connect(System.String,System.Int32,RemoteViewing.Vnc.VncClientConnectOptions)"/>
+             on it to get things up and running quickly.
+             </summary>
+        </member>
+        <member name="P:RemoteViewing.Windows.Forms.VncControl.AllowInput">
+             <summary>
+             Gets or sets a value indicating whether the control should send input to the server, or act only as a viewer.
+            
+             By default, this is <c>true</c>.
+             </summary>
+        </member>
+        <member name="P:RemoteViewing.Windows.Forms.VncControl.AllowRemoteCursor">
+             <summary>
+             Gets or sets a value indicating whether the local cursor is allowed to be hidden.
+            
+             By default, this is <c>true</c>.
+             </summary>
+        </member>
+        <member name="P:RemoteViewing.Windows.Forms.VncControl.AllowClipboardSharingFromServer">
+            <summary>
+            Gets or sets a value indicating whether clipboard changes on the remote VNC server will alter the local clipboard.
+            </summary>
+        </member>
+        <member name="P:RemoteViewing.Windows.Forms.VncControl.AllowClipboardSharingToServer">
+            <summary>
+            Gets or sets a value indicating whether local clipboard changes will be sent to the remote VNC server.
+            </summary>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.OnLoad(System.EventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.OnHandleDestroyed(System.EventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.WndProc(System.Windows.Forms.Message@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.OnLostFocus(System.EventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.OnResize(System.EventArgs)">
+            <summary>
+            Invalidate the graphic to avoid strange artifacts when resizing the control.
+            </summary>
+            <param name="e">The empty event args.</param>
+        </member>
+        <member name="F:RemoteViewing.Windows.Forms.VncControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:RemoteViewing.Windows.Forms.VncKeysym">
+            <summary>
+            Helps with Windows Forms keyboard interaction.
+            </summary>
+            <remarks>
+            See http://www.realvnc.com/docs/rfbproto.pdf for common keys.
+            </remarks>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncKeysym.FromKeyCode(System.Windows.Forms.Keys)">
+            <summary>
+            Converts Windows Forms <see cref="T:System.Windows.Forms.Keys"/> to X11 keysyms.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>The keysym.</returns>
+        </member>
+    </members>
+</doc>

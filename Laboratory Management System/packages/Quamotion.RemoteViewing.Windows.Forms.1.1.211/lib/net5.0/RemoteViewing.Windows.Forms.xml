@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RemoteViewing.Windows.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:RemoteViewing.Windows.Forms.VncBitmap">
+            <summary>
+            Helps with Windows Forms bitmap conversion.
+            </summary>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncBitmap.CopyToFramebuffer(System.Drawing.Bitmap,RemoteViewing.Vnc.VncRectangle,RemoteViewing.Vnc.VncFramebuffer,System.Int32,System.Int32)">
+            <summary>
+            Copies a region of a bitmap into the framebuffer.
+            </summary>
+            <param name="source">The bitmap to read.</param>
+            <param name="sourceRectangle">The bitmap region to copy.</param>
+            <param name="target">The framebuffer to copy into.</param>
+            <param name="targetX">The leftmost X coordinate of the framebuffer to draw to.</param>
+            <param name="targetY">The topmost Y coordinate of the framebuffer to draw to.</param>
+        </member>
+        <member name="M:RemoteViewing.Windows.Forms.VncBitmap.CopyFromFramebuffer(RemoteViewing.Vnc.VncFramebuffer,RemoteViewing.Vnc.VncRectangle,System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            Copies a region of the framebuffer into a bitmap.
+            </summary>
+            <param name="source">The framebuffer to read.</param>
+            <param name="sourceRectangle">The framebuffer region to copy.</param>
+            <param name="target">The bitmap to copy into.</param>
+            <param name="targetX">The leftmost X coordinate of the bitmap to draw to.</param>
+            <param name="targetY">The topmost Y coordinate of the bitmap to draw to.</param>
+        </member>
+    </members>
+</doc>

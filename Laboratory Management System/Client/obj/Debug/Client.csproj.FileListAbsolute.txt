@@ -1,0 +1,14 @@
+C:\CAPSTONE\Laboratory Management System\Client\bin\Debug\Client.exe.config
+C:\CAPSTONE\Laboratory Management System\Client\bin\Debug\Client.exe
+C:\CAPSTONE\Laboratory Management System\Client\bin\Debug\Client.pdb
+C:\CAPSTONE\Laboratory Management System\Client\bin\Debug\System.Drawing.Common.dll
+C:\CAPSTONE\Laboratory Management System\Client\bin\Debug\System.Drawing.Common.pdb
+C:\CAPSTONE\Laboratory Management System\Client\bin\Debug\System.Drawing.Common.xml
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.Form1.resources
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.Properties.Resources.resources
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.csproj.Up2Date
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.exe
+C:\CAPSTONE\Laboratory Management System\Client\obj\Debug\Client.pdb

@@ -1,0 +1,12 @@
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\BackUp.csproj.AssemblyReference.cache
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\BackUp.Properties.Resources.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.UserControls.LaboratoryInchargeControls.RepairForm.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.UserControls.LaboratoryInchargeControls.ReplacementForm.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.UserControls.InstructorsControls.ReportForm.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\CLMS_Student_Attendance.StudentAttendance.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.UserControls.LaboratoryInchargeControls.uc_asset_reports.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.UserControls.InstructorsControls.uc_attendance_incharge.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\BackUp.csproj.GenerateResource.cache
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\BackUp.csproj.CoreCompileInputs.cache
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.Controls.uc_workstations.resources
+C:\CAPSTONE\Laboratory Management System\BackUp\obj\Debug\Laboratory_Management_System.Admin.resources

@@ -1,0 +1,16 @@
+C:\CAPSTONE\Laboratory Management System\TestAgain\bin\Debug\TestAgain.exe.config
+C:\CAPSTONE\Laboratory Management System\TestAgain\bin\Debug\TestAgain.exe
+C:\CAPSTONE\Laboratory Management System\TestAgain\bin\Debug\TestAgain.pdb
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.csproj.AssemblyReference.cache
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.Form1.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.Properties.Resources.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.csproj.GenerateResource.cache
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.csproj.CoreCompileInputs.cache
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.exe
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.pdb
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\TestAgain.Chart.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\Laboratory_Management_System.UserControls.InstructorsControls.uc_assets.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\Laboratory_Management_System.RemoteViewer.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\Laboratory_Management_System.StartClassDialog.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\Laboratory_Management_System.UserControls.InstructorsControls.uc_remoteview.resources
+C:\CAPSTONE\Laboratory Management System\TestAgain\obj\Debug\Laboratory_Management_System.UserControls.AdminControls.uc_workstations_view.resources

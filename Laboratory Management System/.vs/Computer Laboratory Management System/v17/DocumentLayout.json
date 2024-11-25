@@ -1,0 +1,1878 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Computer Laboratory Management System\\Laboratory Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|c:\\computer laboratory management system\\laboratory management system\\laboratory management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|c:\\computer laboratory management system\\laboratory management system\\laboratory management system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_assets_instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_assets_instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_assets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_assets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_assets_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_assets_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|c:\\computer laboratory management system\\laboratory management system\\laboratory management system\\usercontrols\\instructorscontrols\\uc_assets_instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_assets_instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addassetsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addassetsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\vncfullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\vncfullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\vncfullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\vncfullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\adminforms\\workstationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\adminforms\\workstationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\adminforms\\workstationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\adminforms\\workstationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunitsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_system_units_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_system_units_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_system_units_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_system_units_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\fullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\fullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\fullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\fullscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_remoteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_remoteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_remoteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_remoteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_asset_requests.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_asset_requests.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_system_units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_system_units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_attendance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_attendance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\studentsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\studentsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_repair_histroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_repair_histroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_temporary_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_temporary_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\instructorincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\instructorincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\instructorincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\instructorincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\screenlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\screenlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\subadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\subadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\backup\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|solutionrelative:backup\\textfile2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\editpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\editpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\edituserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\edituserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\edituserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\edituserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\editpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\editpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\edituserdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\edituserdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\backup\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|solutionrelative:backup\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_repair_histroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_repair_histroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_replacement_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_replacement_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_temporary_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_temporary_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_temporary_schedules.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_temporary_schedules.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\requestschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\requestschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\requestschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\requestschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\requestschedule.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\requestschedule.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_workstations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_workstations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\requestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\requestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\replacementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\replacementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_system_units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_system_units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_system_units.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_system_units.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\requestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\requestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_calendar_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_calendar_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_workstations_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_workstations_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationincharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addworkstationincharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\backup\\replacementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|solutionrelative:backup\\replacementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\replacementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\replacementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\backup\\uc_attendance_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A688B8-7698-4F23-99B4-B7EF7DCE7727}|BackUp\\BackUp.csproj|solutionrelative:backup\\uc_attendance_incharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addsystemunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\uc_calendar_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\uc_calendar_schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\replacementform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\replacementform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addassetsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addassetsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorscontrols\\uc_assets_instructor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorscontrols\\uc_assets_instructor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_system_units_incharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\instructorinchargecontrols\\uc_system_units_incharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsincharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editsystemunitsincharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\subadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\subadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editassetsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editassetsincharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editassetsincharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editassetsincharge.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\edituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\editschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\editschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\laboratory management system\\usercontrols\\admincontrols\\crud\\addschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CFB302CD-C51D-4BAE-8E4B-297B6D2821B7}|Laboratory Management System\\Computer Laboratory Management System.csproj|solutionrelative:laboratory management system\\usercontrols\\admincontrols\\crud\\addschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|C:\\Computer Laboratory Management System\\Laboratory Management System\\clms student attendance\\passcodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6F58325-E3D4-4999-80DA-C1F80D23A702}|CLMS Student Attendance\\CLMS Student Attendance.csproj|solutionrelative:clms student attendance\\passcodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Program.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Program.cs",
+              "RelativeToolTip": "Laboratory Management System\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:09:15.764Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Admin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Admin.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Admin.cs",
+              "RelativeToolTip": "Laboratory Management System\\Admin.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:00:15.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "uc_assets_inventory.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_assets_inventory.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_assets_inventory.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_assets_inventory.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_assets_inventory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAANYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:41:57.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "uc_assets.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAASwNEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:11:36.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "uc_assets_instructor.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAASwCQBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:19:16.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "uc_users.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwD8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:54:50.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "uc_students.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:10:55.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "uc_assets_instructor.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:08:13.013Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "uc_rooms.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:40:36.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\Program.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\Program.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\Program.cs",
+              "RelativeToolTip": "CLMS Student Attendance\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:14:20.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddAssetsIncharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:48:43.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VNCFullscreen.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\VNCFullscreen.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\VNCFullscreen.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\VNCFullscreen.cs",
+              "RelativeToolTip": "Laboratory Management System\\VNCFullscreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T02:13:04.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VNCFullscreen.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\VNCFullscreen.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\VNCFullscreen.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\VNCFullscreen.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\VNCFullscreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T02:12:23.23Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "uc_attendance.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:40:10.214Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WorkStationView.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\AdminForms\\WorkStationView.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\AdminForms\\WorkStationView.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\AdminForms\\WorkStationView.cs",
+              "RelativeToolTip": "Laboratory Management System\\AdminForms\\WorkStationView.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAewMcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T14:51:31.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WorkStationView.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\AdminForms\\WorkStationView.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\AdminForms\\WorkStationView.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\AdminForms\\WorkStationView.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\AdminForms\\WorkStationView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:13.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditSystemUnitsIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:23:50.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentAttendance.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\StudentAttendance.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\StudentAttendance.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\StudentAttendance.cs",
+              "RelativeToolTip": "CLMS Student Attendance\\StudentAttendance.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAAAPMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:50:35.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditSystemUnitsIncharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAArwEMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:24:11.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditWorkstationIncharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAiwMwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:17:54.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddSystemUnitsIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:17:08.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddSystemUnitsIncharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnitsIncharge.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAAAiwNoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:17:00.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddSystemUnits.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAArwCQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:28:20.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddAssets.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:01:34.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "uc_system_units_incharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T10:00:35.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "uc_system_units_incharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:16:47.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "uc_remoteview.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAASwKgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:47:08.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Fullscreen.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Fullscreen.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Fullscreen.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Fullscreen.cs",
+              "RelativeToolTip": "Laboratory Management System\\Fullscreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:30:06.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Fullscreen.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Fullscreen.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Fullscreen.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Fullscreen.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\Fullscreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:37:28.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "uc_system_units.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:20:11.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "uc_asset_requests.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_asset_requests.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_asset_requests.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_asset_requests.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_asset_requests.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T01:33:34.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "uc_remoteview.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_remoteview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:46:22.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "uc_temporary_schedules.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAwK0AAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T06:09:42.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StudentSession.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\StudentSession.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\StudentSession.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\StudentSession.cs [Design]",
+              "RelativeToolTip": "CLMS Student Attendance\\StudentSession.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:35:04.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "uc_attendance.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_attendance.Designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T16:47:32.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "uc_repair_histroy.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAADwv8cAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:00:58.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Login.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Login.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Login.cs",
+              "RelativeToolTip": "Laboratory Management System\\Login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T02:43:23.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Login.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Login.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:38:05.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InstructorIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\InstructorIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\InstructorIncharge.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\InstructorIncharge.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\InstructorIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:37:23.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InstructorIncharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\InstructorIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\InstructorIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\InstructorIncharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\InstructorIncharge.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAASwHIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:46:40.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Instructor.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Instructor.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Instructor.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\Instructor.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\Instructor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:22:39.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "uc_rooms.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_rooms.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:40:56.118Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EditRoom.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:47:11.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditRoom.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAiwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:47:12.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EditRoom.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditRoom.Designer.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAASwFAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:50:22.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddRoom.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:36:57.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddRoom.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAASwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:37:00.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AddRoom.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddRoom.Designer.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAASwFAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:39:41.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Incharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Incharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Incharge.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\Incharge.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\Incharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:55:32.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Admin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Admin.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Admin.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T10:22:52.842Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ScreenLock.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\ScreenLock.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\ScreenLock.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\ScreenLock.cs [Design]",
+              "RelativeToolTip": "CLMS Student Attendance\\ScreenLock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:09:19.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "StudentAttendance.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\StudentAttendance.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\StudentAttendance.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\StudentAttendance.cs [Design]",
+              "RelativeToolTip": "CLMS Student Attendance\\StudentAttendance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T04:21:01.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AddUser.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:50:06.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AddStudent.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAASwHoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:33:41.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AddStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:33:47.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AddUser.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:39:54.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SubAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\SubAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\SubAdmin.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\SubAdmin.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\SubAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:48:49.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Instructor.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Instructor.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Instructor.cs",
+              "RelativeToolTip": "Laboratory Management System\\Instructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:36:46.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Incharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Incharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\Incharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\Incharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\Incharge.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAIA6wFIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T02:27:44.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:16:15.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Message.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\Message.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T04:23:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "TextFile2.txt",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\TextFile2.txt",
+              "RelativeDocumentMoniker": "BackUp\\TextFile2.txt",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\TextFile2.txt",
+              "RelativeToolTip": "BackUp\\TextFile2.txt",
+              "ViewState": "AQIAACwBAAAAAAAAAAAgwEUBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-05T05:03:31.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EditPassword.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\EditPassword.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\EditPassword.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\EditPassword.cs",
+              "RelativeToolTip": "CLMS Student Attendance\\EditPassword.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowDwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:58:35.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "uc_users.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_users.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:49:50.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EditUserDetails.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAjwBUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:48:25.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EditUserDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:48:35.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EditPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\EditPassword.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\EditPassword.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\CLMS Student Attendance\\EditPassword.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\CLMS Student Attendance\\EditPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:08:07.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "EditUserDetails.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUserDetails.Designer.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAASwIUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:57:11.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "uc_students.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_students.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:19:26.166Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "TextFile1.txt",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\TextFile1.txt",
+              "RelativeDocumentMoniker": "BackUp\\TextFile1.txt",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\TextFile1.txt",
+              "RelativeToolTip": "BackUp\\TextFile1.txt",
+              "ViewState": "AQIAAHQAAAAAAAAAAAApwIwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-02T10:17:50.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "uc_repair_histroy.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_repair_histroy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:23:24.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "uc_replacement_history.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_replacement_history.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_replacement_history.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_replacement_history.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_replacement_history.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T16:48:16.248Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "uc_temporary_schedules.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T06:10:06.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "uc_temporary_schedules.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_temporary_schedules.Designer.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAASwJ0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T06:10:03.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RequestSchedule.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAADgv5cAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:40:22.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "RequestSchedule.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:40:40.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "AddSchedule.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAA2wAkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:46:38.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "uc_workstations.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_workstations.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_workstations.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_workstations.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_workstations.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:38:37.629Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "RequestSchedule.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestSchedule.Designer.cs",
+              "ViewState": "AQIAACcBAAAAAAAAAAASwO0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:47:01.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AddWorkstationAdmin.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAADgv8YAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:05:36.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ReplacementForm.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:08:06.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "RequestForm.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:32:35.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AddWorkstationAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:05:32.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "EditWorkstationAdmin.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:44:06.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "EditWorkstationAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:44:20.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "uc_system_units.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAA4wHMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:29:38.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "EditSystemUnitsAdmin.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:00:11.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "EditSystemUnitsAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:00:20.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "uc_system_units.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_system_units.Designer.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAASwG0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:59:23.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "RequestForm.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\RequestForm.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAvwEoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:32:23.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "uc_calendar_schedules.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:15:57.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "uc_schedules.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:45:21.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "EditWorkstationIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditWorkstationIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:18:09.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "uc_workstations_incharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_workstations_incharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_workstations_incharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_workstations_incharge.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_workstations_incharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:58:51.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "AddWorkstationIncharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAnwG4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:06:14.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "AddWorkstationIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:06:32.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "AddWorkstationIncharge.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddWorkstationIncharge.Designer.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAvwJcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:25:39.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ReplacementForm.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\ReplacementForm.cs",
+              "RelativeDocumentMoniker": "BackUp\\ReplacementForm.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\ReplacementForm.cs",
+              "RelativeToolTip": "BackUp\\ReplacementForm.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAewAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:51:00.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "uc_attendance_incharge.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\uc_attendance_incharge.cs",
+              "RelativeDocumentMoniker": "BackUp\\uc_attendance_incharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\BackUp\\uc_attendance_incharge.cs",
+              "RelativeToolTip": "BackUp\\uc_attendance_incharge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:51:19.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "ReplacementForm.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T06:07:34.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "AddSystemUnits.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSystemUnits.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T10:28:33.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "uc_schedules.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_schedules.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAgwBQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:12:57.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "uc_calendar_schedules.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\uc_calendar_schedules.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAnwPQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:15:37.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "ReplacementForm.resx",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.resx",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.resx",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.resx",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\ReplacementForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-10-26T08:09:59.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "AddAssetsIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssetsIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:48:53.522Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "AddAssets.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs [Design]",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddAssets.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:01:47.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "uc_assets_instructor.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorsControls\\uc_assets_instructor.Designer.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAYwNMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:05:08.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "uc_system_units_incharge.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\InstructorInchargeControls\\uc_system_units_incharge.Designer.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAiwGsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T16:52:01.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "EditSystemUnitsIncharge.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSystemUnitsIncharge.Designer.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAawFgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:37:53.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "SubAdmin.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\SubAdmin.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\SubAdmin.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\SubAdmin.cs",
+              "RelativeToolTip": "Laboratory Management System\\SubAdmin.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAD4vx0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:48:39.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "EditAssetsIncharge.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:57:09.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "EditAssetsIncharge.Designer.cs",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.Designer.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.Designer.cs",
+              "RelativeToolTip": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditAssetsIncharge.Designer.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAawEoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:11:56.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "EditUser.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUser.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUser.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUser.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:15:21.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "EditStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditStudent.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditStudent.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditStudent.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:48:25.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "EditSchedule.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSchedule.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSchedule.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSchedule.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\EditSchedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:15:00.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "AddSchedule.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs",
+              "RelativeDocumentMoniker": "Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs",
+              "ToolTip": "C:\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs [Design]",
+              "RelativeToolTip": "..\\..\\CAPSTONE\\Laboratory Management System\\Laboratory Management System\\UserControls\\AdminControls\\Crud\\AddSchedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:46:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "PasscodeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\PasscodeForm.cs",
+              "RelativeDocumentMoniker": "CLMS Student Attendance\\PasscodeForm.cs",
+              "ToolTip": "C:\\Computer Laboratory Management System\\Laboratory Management System\\CLMS Student Attendance\\PasscodeForm.cs [Design]",
+              "RelativeToolTip": "CLMS Student Attendance\\PasscodeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:06:55.416Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

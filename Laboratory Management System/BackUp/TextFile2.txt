@@ -1,0 +1,328 @@
+﻿using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+using System.Diagnostics;
+
+
+namespace CLMS_Student_Attendance
+{
+    internal static class Program
+    {
+        private static TcpListener listener;
+        private const int Port = 12345;
+        private static CancellationTokenSource cancellationTokenSource;
+
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            StartServer();
+
+            Application.Run(new StudentAttendance());
+
+            StopServer();
+        }
+
+        private static void StartServer()
+        {
+            listener = new TcpListener(IPAddress.Any, Port);
+            listener.Start();
+            cancellationTokenSource = new CancellationTokenSource();
+
+            var serverThread = new Thread(() =>
+            {
+                while (!cancellationTokenSource.Token.IsCancellationRequested)
+                {
+                    try
+                    {
+                        var client = listener.AcceptTcpClient();
+                        var clientThread = new Thread(() => HandleClient(client));
+                        clientThread.Start();
+                    }
+                    catch (SocketException)
+                    {
+                        // Handle socket exception if needed
+                    }
+                }
+            });
+            serverThread.Start();
+        }
+
+        private static void StopServer()
+        {
+            cancellationTokenSource.Cancel();
+            listener?.Stop();
+        }
+
+        private static void HandleClient(TcpClient client)
+        {
+            try
+            {
+                using (var stream = client.GetStream())
+                {
+                    var commandThread = new Thread(() => ListenForCommands(stream));
+                    commandThread.Start();
+
+                    var messageThread = new Thread(() => HandleIncomingMessages(stream));
+                    messageThread.Start();
+
+                    while (true)
+                    {
+                        try
+                        {
+                            SendScreenCapture(stream);
+                        }
+                        catch (IOException)
+                        {
+                            break;
+                        }
+                        catch (ObjectDisposedException)
+                        {
+                            break;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Error: " + ex.Message);
+                            break;
+                        }
+                    }
+                }
+            }
+            finally
+            {
+                client.Close();
+            }
+        }
+
+        private static string ReceiveCommandOrMessage(NetworkStream stream)
+        {
+            // Read the first byte to determine type (0 for message, 1 for command)
+            int messageType = stream.ReadByte();
+            if (messageType == -1) return null; // End of stream
+
+            byte[] lengthBytes = new byte[4];
+            int bytesRead = stream.Read(lengthBytes, 0, lengthBytes.Length);
+            if (bytesRead == 0) return null;
+
+            int dataLength = BitConverter.ToInt32(lengthBytes, 0);
+            byte[] dataBytes = new byte[dataLength];
+            stream.Read(dataBytes, 0, dataLength);
+
+            string data = Encoding.UTF8.GetString(dataBytes);
+            return messageType == 1 ? $"COMMAND:{data}" : $"MESSAGE:{data}";
+        }
+
+        private static void ListenForCommands(NetworkStream stream)
+        {
+            while (true)
+            {
+                try
+                {
+                    string receivedData = ReceiveCommandOrMessage(stream);
+                    if (receivedData == null) break;
+
+                    if (receivedData.StartsWith("COMMAND:"))
+                    {
+                        ProcessCommand(receivedData.Substring(8));
+                    }
+                    else if (receivedData.StartsWith("MESSAGE:"))
+                    {
+                        ShowMessage(receivedData.Substring(8));
+                    }
+                }
+                catch (IOException)
+                {
+                    break;
+                }
+                catch (ObjectDisposedException)
+                {
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                    break;
+                }
+            }
+        }
+
+        private static string ReceiveCommand(NetworkStream stream)
+        {
+            byte[] lengthBytes = new byte[4];
+            int bytesRead = stream.Read(lengthBytes, 0, lengthBytes.Length);
+            if (bytesRead == 0) return null;
+
+            int commandLength = BitConverter.ToInt32(lengthBytes, 0);
+            byte[] commandBytes = new byte[commandLength];
+            stream.Read(commandBytes, 0, commandLength);
+
+            string command = System.Text.Encoding.UTF8.GetString(commandBytes);
+            return command;
+        }
+
+        private static void ProcessCommand(string command)
+        {
+            if (command == "LOCK")
+            {
+                ShowScreenLockForm();
+            }
+            else if (command == "SHUTDOWN")
+            {
+                ShutdownComputer();
+            }
+            else if (command == "RESTART")
+            {
+                RestartComputer();
+            }
+            else
+            {
+                Console.WriteLine("Received command: " + command);
+            }
+        }
+
+        private static void ShowScreenLockForm()
+        {
+            if (Application.OpenForms.Count > 0)
+            {
+                Form mainForm = Application.OpenForms[0];
+                mainForm.Invoke((MethodInvoker)delegate
+                {
+                    ScreenLock lockForm = new ScreenLock();
+                    lockForm.ShowDialog();
+                });
+            }
+        }
+
+        private static void HandleIncomingMessages(NetworkStream stream)
+        {
+            while (true)
+            {
+                try
+                {
+                    string message = HandleMessage(stream);
+                    if (message == null) break;
+                }
+                catch (IOException)
+                {
+                    break;
+                }
+                catch (ObjectDisposedException)
+                {
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                    break;
+                }
+            }
+        }
+
+        private static string HandleMessage(NetworkStream stream)
+        {
+            byte[] lengthBytes = new byte[4];
+            int bytesRead = stream.Read(lengthBytes, 0, lengthBytes.Length);
+            if (bytesRead == 0) return null;
+
+            int messageLength = BitConverter.ToInt32(lengthBytes, 0);
+            byte[] messageBytes = new byte[messageLength];
+
+            stream.Read(messageBytes, 0, messageLength);
+            string message = System.Text.Encoding.UTF8.GetString(messageBytes);
+
+            ShowMessage(message);
+
+            return message;
+        }
+
+        private static void ShowMessage(string message)
+        {
+            if (Application.OpenForms.Count > 0)
+            {
+                Form mainForm = Application.OpenForms[0];
+                mainForm.Invoke((MethodInvoker)delegate
+                {
+                    MessageBox.Show(mainForm, message, "Message from Client", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                });
+            }
+        }
+
+        private static void SendScreenCapture(NetworkStream stream)
+        {
+            using (var bitmap = CaptureScreen())
+            using (var ms = new MemoryStream())
+            {
+                bitmap.Save(ms, ImageFormat.Jpeg);
+                var imageBytes = ms.ToArray();
+
+                var lengthBytes = BitConverter.GetBytes(imageBytes.Length);
+                stream.Write(lengthBytes, 0, lengthBytes.Length);
+                stream.Write(imageBytes, 0, imageBytes.Length);
+            }
+        }
+
+        private static Bitmap CaptureScreen()
+        {
+            var bounds = Screen.PrimaryScreen.Bounds;
+            var bitmap = new Bitmap(bounds.Width, bounds.Height);
+
+            using (var g = Graphics.FromImage(bitmap))
+            {
+                g.CopyFromScreen(bounds.X, bounds.Y, 0, 0, bounds.Size);
+
+                var cursorPosition = Cursor.Position;
+                var cursorIcon = Cursors.Default;
+                var cursorBounds = cursorIcon.HotSpot;
+
+                var cursorScreenPosition = new Point(cursorPosition.X - cursorBounds.X, cursorPosition.Y - cursorBounds.Y);
+                cursorIcon.Draw(g, new Rectangle(cursorScreenPosition, cursorIcon.Size));
+            }
+
+            return bitmap;
+        }
+
+        private static void ShutdownComputer()
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo("shutdown", "/s /f /t 0")
+                {
+                    CreateNoWindow = true,
+                    UseShellExecute = false
+                });
+                Console.WriteLine("Shutdown command executed.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error during shutdown: " + ex.Message);
+            }
+        }
+
+        private static void RestartComputer()
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo("shutdown", "/r /f /t 0")
+                {
+                    CreateNoWindow = true,
+                    UseShellExecute = false
+                });
+                Console.WriteLine("Restart command executed.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error during restart: " + ex.Message);
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,98 @@
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\CLMS Student Attendance.exe.config
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\CLMS Student Attendance.exe
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\CLMS Student Attendance.pdb
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\BouncyCastle.Cryptography.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\Google.Protobuf.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Hash.xxHash.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\MySql.Data.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Buffers.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.IO.Pipelines.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Memory.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Numerics.Vectors.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\ZstdSharp.dll
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\BouncyCastle.Cryptography.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\Google.Protobuf.pdb
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\Google.Protobuf.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Hash.xxHash.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\MySql.Data.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Buffers.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.IO.Pipelines.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Memory.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Numerics.Vectors.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.AssemblyReference.cache
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.Properties.Resources.resources
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.StudentAttendance.resources
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.GenerateResource.cache
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.CoreCompileInputs.cache
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Stu.40E87692.Up2Date
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.exe
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.pdb
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.StudentSession.resources
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.ResolveComReference.cache
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.Passcode.resources
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.EditPassword.resources
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.ScreenLock.resources
+C:\CAPSTONE\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.BlankForm.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\CLMS Student Attendance.exe.config
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\CLMS Student Attendance.exe
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\CLMS Student Attendance.pdb
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\Google.Protobuf.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Hash.xxHash.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\MySql.Data.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Buffers.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.IO.Pipelines.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Memory.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Numerics.Vectors.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\ZstdSharp.dll
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\Google.Protobuf.pdb
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\Google.Protobuf.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\K4os.Hash.xxHash.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\MySql.Data.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Buffers.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.IO.Pipelines.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Memory.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Numerics.Vectors.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.AssemblyReference.cache
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.ResolveComReference.cache
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.BlankForm.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.EditPassword.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.Passcode.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.Properties.Resources.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.ScreenLock.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.StudentAttendance.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS_Student_Attendance.StudentSession.resources
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.GenerateResource.cache
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.csproj.CoreCompileInputs.cache
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Stu.40E87692.Up2Date
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.exe
+C:\Computer Laboratory Management System\Laboratory Management System\CLMS Student Attendance\obj\Debug\CLMS Student Attendance.pdb

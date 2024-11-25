@@ -1,0 +1,264 @@
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Data;
+using System.Windows.Forms;
+
+namespace Laboratory_Management_System.UserControls.LaboratoryInchargeControls
+{
+    public partial class ReplacementForm : Form
+    {
+        private DatabaseHelper dbHelper;
+        private string UserId;
+
+        public ReplacementForm(string reportId, string userId)
+        {
+            InitializeComponent();
+            dbHelper = new DatabaseHelper();
+            LoadAssetId(reportId);
+            UserId = userId;
+        }
+
+        private void LoadAssetId(string reportId)
+        {
+            string query = "SELECT asset_id FROM reports WHERE report_id = @reportId";
+            var parameters = new MySqlParameter[] { new MySqlParameter("@reportId", reportId) };
+
+            DataTable result = dbHelper.GetData(query, parameters);
+
+            if (result.Rows.Count > 0)
+            {
+                string assetId = result.Rows[0]["asset_id"].ToString();
+                currentAsset.Text = assetId;
+            }
+            else
+            {
+                MessageBox.Show("Asset ID not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+            string currentAssetId = currentAsset.Text;
+            string replacementAssetId = replacementAsset.Text;
+
+            // Check if the current asset is in workstations or system_units
+            string currentAssetType = GetAssetType(currentAssetId);
+            string currentLocation = GetAssetLocation(currentAssetId);
+
+            if (string.IsNullOrEmpty(currentAssetType) || string.IsNullOrEmpty(currentLocation))
+            {
+                MessageBox.Show("Current asset not found in workstations or system units.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            string replacementAssetType = GetAssetType(replacementAssetId);
+
+            if (currentAssetType != replacementAssetType)
+            {
+                MessageBox.Show("The replacement asset type does not match the current asset type.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Update the current asset and replacement asset in their respective tables
+            if (!UpdateAsset(currentAssetId, replacementAssetId, currentLocation))
+            {
+                MessageBox.Show("Failed to replace the asset. Please check the asset IDs.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Insert into replacement_history table
+            InsertReplacementHistory(currentAssetId, replacementAssetId);
+
+            MessageBox.Show("Asset replacement successful.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void InsertReplacementHistory(string currentAssetId, string replacementAssetId)
+        {
+            string query = "INSERT INTO replacement_history (asset_id, replacement_asset, replaced_by) VALUES (@currentAssetId, @replacementAssetId, @replacedBy)";
+
+            var parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@currentAssetId", currentAssetId),
+                new MySqlParameter("@replacementAssetId", replacementAssetId),
+                new MySqlParameter("@replacedBy", UserId)
+            };
+
+            dbHelper.ExecuteQuery(query, parameters);
+        }
+
+        private bool UpdateAsset(string currentAssetId, string replacementAssetId, string currentLocation)
+        {
+            string currentAssetType = GetAssetType(currentAssetId);
+            string replacementAssetType = GetAssetType(replacementAssetId);
+
+            // Ensure that the replacement asset type matches the current asset type
+            if (currentAssetType != replacementAssetType)
+            {
+                MessageBox.Show("The replacement asset type does not match the current asset type.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            // Update current asset status to "Replaced"
+            UpdateCurrentAssetStatus(currentAssetId);
+
+            // Assign current asset's workstation to "Unassigned"
+            UnassignCurrentAssetFromWorkstation(currentAssetId, currentLocation);
+
+            // Update replacement asset status to "Working" and assign it to the workstation
+            AssignReplacementAsset(replacementAssetId, currentLocation);
+
+            return true;
+        }
+
+        private void UpdateCurrentAssetStatus(string assetId)
+        {
+            string assetType = GetAssetType(assetId);
+            string assetTable = GetAssetTable(assetType);
+            string query = $"UPDATE {assetTable} SET status = 'Replaced' WHERE {assetType} = @assetId";
+
+            var parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@assetId", assetId)
+            };
+
+            dbHelper.ExecuteQuery(query, parameters);
+        }
+
+        private void UnassignCurrentAssetFromWorkstation(string assetId, string currentLocation)
+        {
+            string assetType = GetAssetType(assetId);
+            string columnName = GetWorkstationAssetColumn(assetType);
+            string query = $"UPDATE workstations SET {columnName} = NULL WHERE room = @currentLocation AND {columnName} = @assetId";
+
+            var parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@currentLocation", currentLocation),
+                new MySqlParameter("@assetId", assetId)
+            };
+
+            dbHelper.ExecuteQuery(query, parameters);
+        }
+
+        private void AssignReplacementAsset(string replacementAssetId, string currentLocation)
+        {
+            string assetType = GetAssetType(replacementAssetId);
+            string assetTable = GetAssetTable(assetType);
+            string query = $"UPDATE {assetTable} SET status = 'Working' WHERE {assetType} = @replacementAssetId";
+            dbHelper.ExecuteQuery(query, new MySqlParameter[] { new MySqlParameter("@replacementAssetId", replacementAssetId) });
+
+            // Also, assign the replacement asset to the workstation
+            string workstationColumn = GetWorkstationAssetColumn(GetAssetType(replacementAssetId));
+            string updateWorkstationQuery = $"UPDATE workstations SET {workstationColumn} = @replacementAssetId WHERE room = @currentLocation";
+            dbHelper.ExecuteQuery(updateWorkstationQuery, new MySqlParameter[] { new MySqlParameter("@replacementAssetId", replacementAssetId), new MySqlParameter("@currentLocation", currentLocation) });
+        }
+
+        private string GetWorkstationAssetColumn(string assetType)
+        {
+            switch (assetType)
+            {
+                case "Monitor":
+                    return "monitor";
+                case "Keyboard":
+                    return "keyboard";
+                case "Mouse":
+                    return "mouse";
+                case "AVR":
+                    return "avr";
+                default:
+                    throw new Exception("Invalid workstation asset type");
+            }
+        }
+
+        private string GetAssetType(string assetId)
+        {
+            // Determine asset type based on the prefix of asset_id
+            if (assetId.StartsWith("M")) return "Monitor";
+            if (assetId.StartsWith("MB")) return "Motherboard";
+            if (assetId.StartsWith("MO")) return "Mouse";
+            if (assetId.StartsWith("A")) return "AVR";
+            // Add more conditions for other asset types as needed
+
+            return "Unknown"; // Default return value if no match
+        }
+
+        private string GetAssetTable(string assetType)
+        {
+            switch (assetType)
+            {
+                case "Monitor":
+                    return "monitors";
+                case "Keyboard":
+                    return "keyboards";
+                case "Mouse":
+                    return "mice";
+                case "AVR":
+                    return "avrs";
+                case "Motherboard":
+                    return "motherboards";
+                case "CPU":
+                    return "cpus";
+                case "RAM":
+                    return "rams";
+                case "PSU":
+                    return "psus";
+                default:
+                    throw new Exception("Invalid asset type");
+            }
+        }
+        private string GetAssetColumn(string assetType)
+        {
+            switch (assetType)
+            {
+                case "Monitor":
+                    return "monitor_id";
+                case "Keyboard":
+                    return "keyboard_id";
+                case "Mouse":
+                    return "mouse_id";
+                case "AVR":
+                    return "avr_id";
+                case "Motherboard":
+                    return "motherboard_id";
+                case "CPU":
+                    return "cpu_id";
+                case "RAM":
+                    return "ram_id";
+                case "PSU":
+                    return "psu_id";
+                default:
+                    throw new Exception("Invalid asset type");
+            }
+        }
+
+        private string GetAssetLocation(string assetId)
+        {
+            // Determine the asset type based on the prefix of the asset_id
+            string assetType = GetAssetType(assetId);
+            string query = string.Empty;
+
+            if (assetType == "Monitor")
+                query = "SELECT room FROM workstations WHERE monitor = @assetId";
+            else if (assetType == "Keyboard")
+                query = "SELECT room FROM workstations WHERE keyboard = @assetId";
+            else if (assetType == "Mouse")
+                query = "SELECT room FROM workstations WHERE mouse = @assetId";
+            else if (assetType == "AVR")
+                query = "SELECT room FROM workstations WHERE avr = @assetId";
+            else if (assetType == "Motherboard")
+                query = "SELECT room FROM system_units WHERE motherboard = @assetId";
+
+            var parameters = new MySqlParameter[] { new MySqlParameter("@assetId", assetId) };
+            DataTable result = dbHelper.GetData(query, parameters);
+
+            if (result.Rows.Count > 0)
+                return result.Rows[0]["room"].ToString();
+
+            return null;
+        }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
